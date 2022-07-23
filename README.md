@@ -113,5 +113,5 @@ Una tabla es dónde se guardan los datos de un modelo en especifico. Cada tabla 
 3. Creamos la carpeta src y dentro el archivo index.js que va a contener como funcionalidad la iniciación del servidor con express
 4. Agregamos dos script en el package.json uno para el desarrollo con nodemon con el siguiente comando `"dev": "nodemon src/index.js"` y otro para producción con el comando `"start": "node src/index.js"`
 5. Creamos una carpeta routes y dentro todas las rutas de la base de datos de La Tablita con su CRUD
-6. Creamos una carpeta public con el HTML de la presentación de La Tablita
+6. Creamos una carpeta views con el HTML usando PUG de la presentación de La Tablita
 7. Iniciamos el servidor con el comando `npm run dev` para desarrollo o `npm start` para producción
