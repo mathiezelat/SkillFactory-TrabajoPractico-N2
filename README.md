@@ -108,7 +108,7 @@ Una tabla es dónde se guardan los datos de un modelo en especifico. Cada tabla 
 - INNER JOIN: Selecciona los datos que tienen valores que coinciden en ambas tablas.
 
 ## 4) Describo paso a paso el procedimiento del punto 2
-1. Inicializamos el proyecto con `npm init -y` y `git init`
+1. Inicializamos el proyecto con `npm init -y`
 2. Instalamos los paquetes de producción con `npm install express mysql morgan` y los paquetes de desarrollo con `npm install nodemon -D`
 3. Creamos la carpeta src y dentro el archivo index.js que va a contener como funcionalidad la iniciación del servidor con express
 4. Agregamos dos script en el package.json uno para el desarrollo con nodemon con el siguiente comando `"dev": "nodemon src/index.js"` y otro para producción con el comando `"start": "node src/index.js"`
